@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double i,j,k,n,p;
+    while(cin>>k)
+    {
+        cin>>n;
+        p=abs(pow(n,1/k));
+        cout<<p<<endl;
+    }
+    return 0;
+}
+
